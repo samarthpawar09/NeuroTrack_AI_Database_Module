@@ -1,0 +1,7 @@
+# Local SQLite database (never commit user data)
+database/neurotrack.db
+database/*.db-journal
+database/*.sqlite
+database/*.sqlite3
+__pycache__/
+*.py[cod]
