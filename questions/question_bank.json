@@ -1,0 +1,146 @@
+
+{
+  "title": "NeuroTrack AI Cognitive Assessment Question Bank",
+  "version": "1.0",
+  "description": "Original cognitive screening tasks for research and educational use. Not a clinically validated diagnostic instrument.",
+  "domains": [
+    "Memory",
+    "Attention",
+    "Language",
+    "Orientation",
+    "Reasoning",
+    "Visuospatial Skills"
+  ],
+  "questions": [
+    {
+      "question_id": "MEM001",
+      "domain": "Memory",
+      "question": "After a short delay, recall these three words: River, Lemon, Key.",
+      "answer_type": "word_list",
+      "correct_answer": ["River", "Lemon", "Key"],
+      "maximum_score": 3,
+      "scoring_method": "Award 1 point for each correctly recalled word, ignoring case. No points for incorrect or missing words.",
+      "scoring_mode": "automatic"
+    },
+    {
+      "question_id": "MEM002",
+      "domain": "Memory",
+      "question": "Which word was included in the earlier word list: Lemon, Apple, Chair, Book?",
+      "answer_type": "mcq",
+      "options": ["Apple", "Chair", "Lemon", "Book"],
+      "correct_answer": "Lemon",
+      "maximum_score": 1,
+      "scoring_method": "Award 1 point for selecting Lemon. Otherwise award 0.",
+      "scoring_mode": "automatic"
+    },
+    {
+      "question_id": "ATT001",
+      "domain": "Attention",
+      "question": "Enter the following numbers in reverse order: 3, 8, 2, 5.",
+      "answer_type": "numeric_sequence",
+      "correct_answer": [5, 2, 8, 3],
+      "maximum_score": 4,
+      "scoring_method": "Award 1 point for each digit in the correct reversed position.",
+      "scoring_mode": "automatic"
+    },
+    {
+      "question_id": "ATT002",
+      "domain": "Attention",
+      "question": "How many times does the letter A appear in the sequence BANANA?",
+      "answer_type": "number",
+      "correct_answer": 3,
+      "maximum_score": 1,
+      "scoring_method": "Award 1 point if the answer is exactly 3.",
+      "scoring_mode": "automatic"
+    },
+    {
+      "question_id": "LAN001",
+      "domain": "Language",
+      "question": "Name as many different fruits as possible in 60 seconds.",
+      "answer_type": "text_list",
+      "correct_answer": null,
+      "maximum_score": 5,
+      "scoring_method": "Manual review. Award 1 point for each unique valid fruit, up to 5 points. Exclude repetitions and invalid responses.",
+      "scoring_mode": "manual"
+    },
+    {
+      "question_id": "LAN002",
+      "domain": "Language",
+      "question": "Choose the word that completes this sentence: Birds can ____.",
+      "answer_type": "mcq",
+      "options": ["Fly", "Swim underwater", "Drive", "Read"],
+      "correct_answer": "Fly",
+      "maximum_score": 1,
+      "scoring_method": "Award 1 point for selecting Fly. Otherwise award 0.",
+      "scoring_mode": "automatic"
+    },
+    {
+      "question_id": "ORI001",
+      "domain": "Orientation",
+      "question": "What is the current month?",
+      "answer_type": "text",
+      "correct_answer": null,
+      "maximum_score": 1,
+      "scoring_method": "Compare the response with the assessment date. Accept equivalent month names and abbreviations.",
+      "scoring_mode": "automatic"
+    },
+    {
+      "question_id": "ORI002",
+      "domain": "Orientation",
+      "question": "What year is it currently?",
+      "answer_type": "number",
+      "correct_answer": null,
+      "maximum_score": 1,
+      "scoring_method": "Compare the response with the assessment date year.",
+      "scoring_mode": "automatic"
+    },
+    {
+      "question_id": "REA001",
+      "domain": "Reasoning",
+      "question": "Which number comes next: 2, 4, 6, 8, __?",
+      "answer_type": "number",
+      "correct_answer": 10,
+      "maximum_score": 1,
+      "scoring_method": "Award 1 point if the answer is exactly 10.",
+      "scoring_mode": "automatic"
+    },
+    {
+      "question_id": "REA002",
+      "domain": "Reasoning",
+      "question": "If all roses are flowers, which statement must be true?",
+      "answer_type": "mcq",
+      "options": [
+        "All flowers are roses",
+        "All roses are flowers",
+        "No roses are flowers",
+        "All flowers are trees"
+      ],
+      "correct_answer": "All roses are flowers",
+      "maximum_score": 1,
+      "scoring_method": "Award 1 point for selecting All roses are flowers. Otherwise award 0.",
+      "scoring_mode": "automatic"
+    },
+    {
+      "question_id": "VIS001",
+      "domain": "Visuospatial Skills",
+      "question": "Which shape has four equal sides and four right angles?",
+      "answer_type": "mcq",
+      "options": ["Triangle", "Circle", "Square", "Oval"],
+      "correct_answer": "Square",
+      "maximum_score": 1,
+      "scoring_method": "Award 1 point for selecting Square. Otherwise award 0.",
+      "scoring_mode": "automatic"
+    },
+    {
+      "question_id": "VIS002",
+      "domain": "Visuospatial Skills",
+      "question": "Imagine a square rotated by 90 degrees. What shape does it remain?",
+      "answer_type": "mcq",
+      "options": ["Triangle", "Square", "Circle", "Rectangle"],
+      "correct_answer": "Square",
+      "maximum_score": 1,
+      "scoring_method": "Award 1 point for selecting Square. Otherwise award 0.",
+      "scoring_mode": "automatic"
+    }
+  ]
+}
